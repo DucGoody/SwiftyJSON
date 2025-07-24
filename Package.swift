@@ -3,6 +3,7 @@ import PackageDescription
 
 let package = Package(
     name: "SwiftyJSON",
+    platforms: [.iOS(.v11)],
     products: [
         .library(name: "SwiftyJSON", targets: ["SwiftyJSON"])
     ],
